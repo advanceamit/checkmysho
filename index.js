@@ -1,5 +1,6 @@
 var input = document.querySelector("#input");
 const form = document.querySelector("#form");
+const main=document.querySelector('#main');
 form.addEventListener("submit", async function (e) {
   e.preventDefault();
   var search = form.input.value;
