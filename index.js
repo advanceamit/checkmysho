@@ -9,6 +9,7 @@ form.addEventListener("submit", async function (e) {
 });
 
 const showdetails = (e) => {
+  main.innerHTML = ''; 
   e.map((m) => {
     console.log(m);
     let card = document.createElement("div");
